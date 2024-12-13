@@ -1,0 +1,11 @@
+package day1210;
+
+public class Ex02DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int kor = 90;
+		int eng = 93;
+	}
+
+}
