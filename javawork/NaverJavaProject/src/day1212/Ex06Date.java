@@ -30,5 +30,4 @@ public class Ex06Date {
 		
 		System.out.println("오늘은 " + week + "요일입니다");
 	}
-
 }

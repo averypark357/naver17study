@@ -26,5 +26,4 @@ public class Ex05DataType {
 		//ascii code 표를 찾아서 Hello 를 출력해보세요
 		System.out.printf("%c %c %c %c %c\n",72,101,108,108,111);
 	}
-
 }

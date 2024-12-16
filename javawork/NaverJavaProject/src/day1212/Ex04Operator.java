@@ -12,8 +12,10 @@ public class Ex04Operator {
 		System.out.println(kor<eng); //true
 		System.out.println(kor==mat); //true
 		System.out.println(kor!=mat); //false
-		System.out.println(kor>eng && eng>mat); //false
-		System.out.println(kor>eng || eng>mat); //true
+		System.out.println(kor>eng && eng>mat); //false : false && true : 1번째 조건이 false일 경우 두번째 조건은 비교하지 않는다
+		System.out.println(eng); //100
+		System.out.println(kor>eng || eng>mat); //true : false || true : 1번째 조건이 true일 경우 두번째 조건은 비교하지 않는다
+		System.out.println(eng); //1 증가 되있음
 		System.out.println(!(kor>eng)); //true
 		System.out.println(!f); //true
 	}
