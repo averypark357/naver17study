@@ -1,5 +1,7 @@
 package day1216;
 
+import java.util.Scanner;
+
 public class Ex06LoopExam {
 
 	public static void main(String[] args) {
@@ -10,7 +12,33 @@ public class Ex06LoopExam {
 		 * 출력하세오
 		 * 사용할 문자 메소드 : length(), charAt(인덱스)
 		 */
+		Scanner sc = new Scanner(System.in);
+		String str;
+		int upperCount = 0, lowerCount = 0, numberCount = 0;
 		
+		System.out.println("문자열을 입력하세요");
+		str = sc.nextLine();
+		for(int i=0; i<str.length();i++)
+		{
+			char ch=str.charAt(i);
+//			if(ch>='A' && ch<='Z')
+//				upperCount++;
+//			else if(ch>='a' && ch<='z')
+//				lowerCount++;
+//			else if(ch>='0' && ch<='9')
+//				numberCount++;
+			
+			if(ch>=65 && ch<=90)
+				upperCount++;
+			else if(ch>=97 && ch<=122)
+				lowerCount++;
+			else if(ch>=48 && ch<=57)
+				numberCount++;
+		}
+		
+		System.out.println("대문자 갯수:" + upperCount);
+		System.out.println("소문자 갯수:" + lowerCount);
+		System.out.println("숫자 갯수:" + numberCount);
 	}
 
 }

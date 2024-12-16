@@ -8,7 +8,7 @@ public class Ex05String {
 		String str1 = "Apple";
 		String str2 = "Have a Nice Day!!";
 		String str3 = "Orange";
-		String str4 = "Apple";
+		String str4 = new String("Apple");
 		
 		System.out.println("str1=" + str1);
 		System.out.println("str2=" + str2);
@@ -27,7 +27,7 @@ public class Ex05String {
 		System.out.println();
 		
 		//객체타입에서는 == 동등연산자가 주소를 비교하는 연산자
-		System.out.println(str1==str4); //false???
+		System.out.println(str1==str4); //false
 		System.out.println(str3=="Orange"); //true
 		System.out.println(str1=="apple"); //false
 		System.out.println();
