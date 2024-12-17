@@ -1,0 +1,35 @@
+package day1217;
+
+public class Ex02Array {
+
+	private static char [] chs;
+
+	public static void main(String[] args) {
+		chs = null;
+		
+		System.out.println("배열크기:" + chs.length);
+		//배열에 데이타 넣기
+		chs[0] = 'H';
+		chs[1] = 65; //'A'
+		chs[2] = 'x';
+		chs[3] = 't';
+		
+		//출력 #1
+		for(int i=0; i<chs.length; i++)
+			System.out.println("ch[" + i + "]=" + chs[i]);
+		System.out.println();
+		//출력 #2
+		for(char a:chs)
+			System.out.println(a);
+		
+		System.out.println("=".repeat(30));
+		char []ch2 = new char[5];
+		ch2 = new char[]{'a', 'n', 'x', 'y', 'u'};
+		for(int i=0; i<ch2.length; i++)
+		{
+			System.out.println("ch2[" + i + "]=" + ch2[i]);
+		}
+		
+	}
+
+}

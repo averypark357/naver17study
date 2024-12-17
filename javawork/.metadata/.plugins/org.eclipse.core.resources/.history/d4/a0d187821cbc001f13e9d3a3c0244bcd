@@ -1,0 +1,13 @@
+package day1217;
+
+public class Ex05ArrayExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []data = {23,100,-56,234,11,88,99,-120,7,10};
+		int max = data[0];
+		
+		
+	}
+
+}

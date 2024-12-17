@@ -15,7 +15,7 @@ public class Ex01Operator {
 		m = a++ * ++b; //5*6
 		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
 		
-		n = a+++ ++b;
+		n = a++ + ++b;
 		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
 		
 		a = 5;

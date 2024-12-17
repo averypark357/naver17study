@@ -10,7 +10,7 @@ public class Ex04DataType {
 		
 		int year2= 2024;
 		int month2 = 5;
-		int day2 = 13;
+		int day2 = 3;
 		
 		//2024-12-11 이런 형식으로 출력해보자
 		System.out.println(year + "-" + month + "-" + day);
