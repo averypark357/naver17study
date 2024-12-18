@@ -20,18 +20,18 @@ public class Ex12ArraySearch {
 		 * 강호동
 		 * 강리나
 		 * 총 2 명 검색
+		 * 
 		 * 검색할 성씨는 ? 홍
 		 * 
 		 * "홍"씨 성을 가진 멤버는 없습니다
 		 * 
 		 * => 대소문자 상관없이 exit 입력시 종료
 		 */
-		
-		while (true) {
+		while (true)
+		{
 			count = 0;
             System.out.print("검색할 성씨 입력(종료:exit):");
             searchName = sc.nextLine();
-            
             //종료
             if (searchName.equalsIgnoreCase("exit"))
             {
@@ -51,9 +51,7 @@ public class Ex12ArraySearch {
                 System.out.println("\"" + searchName + "\" 씨 성을 가진 사람은 없습니다");
             else
                 System.out.println("총 " + count + "명 검색");
-            
 		}
-		
 	}
 
 }

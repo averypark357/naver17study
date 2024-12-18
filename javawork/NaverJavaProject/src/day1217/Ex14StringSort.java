@@ -24,7 +24,6 @@ public class Ex14StringSort {
 		{
 			System.out.println(i + ":" + names[i]);
 		}
-		
 	}
 
 }

@@ -6,7 +6,7 @@ public class Ex02Array {
 		// TODO Auto-generated method stub
 		char []ch = null; //배열선언
 		
-		ch=new char[4];
+		ch = new char[4];
 		System.out.println("배열크기:" + ch.length);
 		//배열에 데이타 넣기
 		ch[0] = 'H';
@@ -18,6 +18,7 @@ public class Ex02Array {
 		for(int i=0; i<ch.length; i++)
 			System.out.println("ch[" + i + "]=" + ch[i]);
 		System.out.println();
+		
 		//출력 #2
 		for(char a:ch)
 			System.out.println(a);
