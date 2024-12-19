@@ -1,0 +1,47 @@
+package day1219;
+
+public class Student {
+	private String stuName;
+	private String stuAddress;
+	private String stuBlood;
+	private int stuBirthYear;
+	private int stuScore;
+	
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	public String getStuAddress() {
+		return stuAddress;
+	}
+	public void setStuAddress(String stuAddress) {
+		this.stuAddress = stuAddress;
+	}
+	
+	//stuBlood 에 대한 setter & getter
+	public String getStuBlood() {
+		return stuBlood;
+	}
+	public void setStuBlood(String stuBlood) {
+		this.stuBlood = stuBlood;
+	}
+	//stuBirthYear 에 대한 setter & getter
+	public int getStuBirthYear() {
+		return stuBirthYear;
+	}
+	public void setStuBirthYear(int stuBirthYear) {
+		this.stuBirthYear = stuBirthYear;
+	}
+	//stuScore 에 대한 setter & getter
+	public int getStuScore() {
+		return stuScore;
+	}
+	public void setStuScore(int stuScore) {
+		this.stuScore = stuScore;
+	}
+}
+
+
+//새터 게터 제너레이터? 상단의 Source에서 제너레이터 게터 앤 새터 선택하면...

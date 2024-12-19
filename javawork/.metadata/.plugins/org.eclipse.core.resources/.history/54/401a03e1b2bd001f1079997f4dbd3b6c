@@ -1,0 +1,15 @@
+package day1219;
+
+class Apple
+{
+	
+}
+
+public class Ex03Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
