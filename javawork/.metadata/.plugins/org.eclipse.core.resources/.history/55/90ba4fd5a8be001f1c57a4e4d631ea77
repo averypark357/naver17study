@@ -1,0 +1,25 @@
+package day1220;
+
+abstract class Test1
+{
+	abstract public void play();
+}
+
+abstract class Test2 extends Test1
+{
+	abstract public void job();
+}
+
+class Test3 extends Test2
+{
+	
+}
+
+public class Ex08Abstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

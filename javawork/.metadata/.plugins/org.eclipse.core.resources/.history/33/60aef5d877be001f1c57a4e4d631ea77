@@ -1,0 +1,24 @@
+package day1220;
+class SuperObj2
+{
+	private String schoolName;
+	
+	public SuperObj2() {
+		// TODO Auto-generated method stub
+		schoolName = "청담고등학교";
+	}
+}
+
+class SubObj2 extends SuperObj2
+{
+	
+}
+//////////////////////////////////////////
+public class Ex02Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
